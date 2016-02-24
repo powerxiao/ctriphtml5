@@ -1,8 +1,8 @@
 #search {
-    width: 80%;
+    width: 100%;
     position: fixed;
-    left: 9%;
-    top: 1%;
+    left: 0;
+    top: 0;
     background-color: #F6F6F6;
     z-index: 22;
 }
@@ -13,10 +13,12 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
     height: 2em;
-    width: 100%;
+    width: 75%;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    display: block;
+    margin: 10px auto;
 }
 
 .swiper-container {

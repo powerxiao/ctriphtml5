@@ -140,7 +140,26 @@ header {
     -ms-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in
 }
+footer{
+    text-align: center;
+}
 
+footer .col:first-child a{
+    position: relative;
+    line-height: 41px;
+}
+
+footer .col:first-child a:before {
+    content: "";
+    position: absolute;
+    left: 36%;
+    top: -21px;
+    width: 18px;
+    padding-top: 14px;
+    display: inline-block;
+    background: url(../img/bg.png) no-repeat -56px -141px;
+    background-size: 100px 300px;
+}
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;

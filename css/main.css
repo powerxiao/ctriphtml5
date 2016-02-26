@@ -6,6 +6,17 @@
     background-color: #F6F6F6;
     z-index: 22;
 }
+#search:before{
+    content: '';
+    position: absolute;
+    left: 13.5%;
+    top: 17px;
+    width: 15px;
+    padding-top: 14px;
+    display: inline-block;
+    background: url(../img/bg.png) no-repeat -56px -256px;
+    background-size: 100px 300px;
+}
 
 .searchInput {
     border: 1px solid dodgerblue;
@@ -13,7 +24,8 @@
     -moz-border-radius: 3px;
     border-radius: 3px;
     height: 2em;
-    width: 75%;
+    width: 72%;
+    padding-left: 34px;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
